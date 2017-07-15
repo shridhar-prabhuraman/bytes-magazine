@@ -1,0 +1,23 @@
+{
+  "name": "bytes-website",
+  "version": "0.1.0",
+  "description": "Bytes magazine website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"no test command specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krushndayshmookh/bytes-website.git"
+  },
+  "keywords": [
+    "bytes",
+    "magazine"
+  ],
+  "author": "Krushn Dayshmookh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krushndayshmookh/bytes-website/issues"
+  },
+  "homepage": "https://github.com/krushndayshmookh/bytes-website#readme"
+}
