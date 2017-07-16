@@ -1,23 +1,32 @@
 {
-  "name": "bytes-website",
-  "version": "0.1.0",
-  "description": "Bytes magazine website",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"no test command specified\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krushndayshmookh/bytes-website.git"
-  },
-  "keywords": [
+    "name": "bytes-website",
+    "version": "0.1.0",
+    "description": "Bytes magazine website",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"no test command specified\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/krushndayshmookh/bytes-website.git"
+    },
+    "keywords": [
     "bytes",
     "magazine"
   ],
-  "author": "Krushn Dayshmookh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/krushndayshmookh/bytes-website/issues"
-  },
-  "homepage": "https://github.com/krushndayshmookh/bytes-website#readme"
+    "author": "Krushn Dayshmookh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/krushndayshmookh/bytes-website/issues"
+    },
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "fs": "0.0.1-security",
+        "mime": "^1.3.6",
+        "mongodb": "^2.2.28",
+        "socket.io": "^2.0.2"
+    },
+    "homepage": "https://github.com/krushndayshmookh/bytes-website#readme"
 }
